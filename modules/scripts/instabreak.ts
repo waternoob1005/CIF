@@ -17,6 +17,8 @@ import { BlockDestructionStartEvent } from "bdsx/event_impl/blockevent";
 import { Event } from "bdsx/eventtarget";
 import { blockDestructionStop } from "../util/EventListener";
 
+// 여, 사토루
+
 const destructionstarttime: Record<string, number | null | undefined> = {};
 const destructionStartTick: Record<string, number | null | undefined> = {};
 const getDestroySpeed = procHacker.js(
